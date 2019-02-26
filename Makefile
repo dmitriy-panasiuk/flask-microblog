@@ -2,7 +2,7 @@ run:
 	flask run
 
 format:
-	isort -rc .
+	isort -rc app migrations
 	black .
 
 lint:
