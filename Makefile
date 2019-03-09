@@ -8,3 +8,6 @@ format:
 lint:
 	black --check .
 	flake8 .
+
+test:
+	python app/tests.py
